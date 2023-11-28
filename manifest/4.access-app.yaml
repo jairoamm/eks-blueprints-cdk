@@ -27,8 +27,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: business-frontend.anycompanyname.com
-      http:
+    - http:
         paths:
         - path: /
           pathType: Prefix
